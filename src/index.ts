@@ -4,7 +4,7 @@ let chosenCards: HTMLElement[] = [];
 let correctGuesses: number = 0;
 
 const handleCard = (event): void => {
-  const card = event.currentTarget;
+  const card: HTMLElement = event.currentTarget;
 
   if (card.classList.contains("flip")) {
     return;
